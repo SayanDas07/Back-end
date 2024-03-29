@@ -6,7 +6,7 @@ const port = 6000
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
-app.get('/login', (req, res) => {
+app.get('/github', (req, res) => {
     res.send('login')
   })
 
